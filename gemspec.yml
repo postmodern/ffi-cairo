@@ -1,0 +1,21 @@
+name: ffi-cairo
+version: 0.1.0
+summary: FFI bindings for Cairo
+description:
+  Ruby FFI bindings for the Cairo drawing library.
+
+license: MIT
+authors: Postmodern
+email: postmodern.mod3@gmail.com
+homepage: http://github.com/postmodern/ffi-cairo
+has_yard: true
+
+requirements: libcairo >= 1.10.0
+
+dependencies:
+  ffi: ~> 0.6.0, ~> 1.0.0
+
+development_dependencies:
+  ore-tasks: ~> 0.3.0
+  rspec: ~> 2.4.0
+  yard: ~> 0.6.0
