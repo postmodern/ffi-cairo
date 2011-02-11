@@ -143,7 +143,7 @@ module FFI
       attach_function :cairo_region_get_extents, [:pointer, :pointer], :void
       attach_function :cairo_region_num_rectangles, [:pointer], :int
       attach_function :cairo_region_get_rectangle, [:pointer, :int, :pointer], :void
-      attach_function :cairo_region_is_empty, [:pointer], :cario_bool_t
+      attach_function :cairo_region_is_empty, [:pointer], :cairo_bool_t
       attach_function :cairo_region_contains_point, [:pointer, :int, :int], :cairo_bool_t
       attach_function :cairo_region_contains_rectangle, [:pointer, :pointer], :cairo_region_overlap
       attach_function :cairo_region_equal, [:pointer, :pointer], :cairo_bool_t
@@ -254,7 +254,7 @@ module FFI
       attach_function :cairo_device_status, [:pointer], :cairo_status
       attach_function :cairo_device_finish, [:pointer], :void
       attach_function :cairo_device_flush, [:pointer], :void
-      attach_function :cairo_device_get_type, [:pointer], :cairo_device
+      attach_function :cairo_device_get_type, [:pointer], :cairo_device_type
       attach_function :cairo_device_get_reference_count, [:pointer], :uint
       attach_function :cairo_device_set_user_data, [:pointer, :pointer, :pointer, :cairo_destroy_func], :cairo_status
       attach_function :cairo_device_get_user_data, [:pointer, :pointer], :pointer
