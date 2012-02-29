@@ -4,7 +4,7 @@ summary: FFI bindings for Cairo
 description:
   Ruby FFI bindings for the Cairo drawing library.
 
-license: MIT
+license: LGPLv2
 authors: Postmodern
 email: postmodern.mod3@gmail.com
 homepage: http://github.com/postmodern/ffi-cairo
