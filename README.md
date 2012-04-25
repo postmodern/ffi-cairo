@@ -1,8 +1,8 @@
 # ffi-cairo
 
-* [github.com/postmodern/ffi-cairo](http://github.com/postmodern/ffi-cairo)
-* [github.com/postmodern/ffi-cairo/issues](http://github.com/postmodern/ffi-cairo/issues)
-* Postmodern (postmodern.mod3 at gmail.com)
+* [Source](https://github.com/postmodern/ffi-cairo)
+* [Issues](https://github.com/postmodern/ffi-cairo/issues)
+* [Email](mailto:postmodern.mod3 at gmail.com)
 
 ## Description
 
@@ -19,7 +19,7 @@ Ruby FFI bindings for [Cairo](http://cairographics.org).
 
 ## Install
 
-    $ sudo gem install ffi-cairo
+    $ gem install ffi-cairo
 
 ## License
 
