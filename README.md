@@ -15,7 +15,7 @@ Ruby FFI bindings for [Cairo](http://cairographics.org).
 ## Requirements
 
 * [libcairo](http://cairographics.org/) >= 1.10.0
-* [ffi](http://github.com/ffi/ffi) ~> 0.6.0
+* [ffi](http://github.com/ffi/ffi) ~> 1.0
 
 ## Install
 
