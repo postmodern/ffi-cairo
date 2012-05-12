@@ -26,7 +26,7 @@ module FFI
   module Cairo
     extend FFI::Library
 
-    ffi_lib 'cairo'
+    ffi_lib ['cairo', 'libcairo.so.2']
 
     #
     # Core
